@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 
 
-		5E555C0D2413F4C50049A1A2 /* AirplayCast.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AirplayCast.mm */; };
+		5E555C0D2413F4C50049A1A2 /* AirPlayCast.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AirPlayCast.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,11 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libAirplayCast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirplayCast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		134814201AA4EA6300B7C361 /* libAirPlayCast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirPlayCast.a; sourceTree = BUILT_PRODUCTS_DIR; };
 
 
-		B3E7B5881CC2AC0600A0062D /* AirplayCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirplayCast.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* AirplayCast.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AirplayCast.mm; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* AirPlayCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayCast.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* AirPlayCast.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AirPlayCast.mm; sourceTree = "<group>"; };
 
 /* End PBXFileReference section */
 
@@ -47,7 +47,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libAirplayCast.a */,
+				134814201AA4EA6300B7C361 /* libAirPlayCast.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,8 +57,8 @@
 			children = (
 
 
-				B3E7B5881CC2AC0600A0062D /* AirplayCast.h */,
-				B3E7B5891CC2AC0600A0062D /* AirplayCast.mm */,
+				B3E7B5881CC2AC0600A0062D /* AirPlayCast.h */,
+				B3E7B5891CC2AC0600A0062D /* AirPlayCast.mm */,
 
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* AirplayCast */ = {
+		58B511DA1A9E6C8500147676 /* AirPlayCast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirplayCast" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirPlayCast" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = AirplayCast;
+			name = AirPlayCast;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libAirplayCast.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libAirPlayCast.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirplayCast" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirPlayCast" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* AirplayCast */,
+				58B511DA1A9E6C8500147676 /* AirPlayCast */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +123,7 @@
 			files = (
 
 
-				5E555C0D2413F4C50049A1A2 /* AirplayCast.mm in Sources */,
+				5E555C0D2413F4C50049A1A2 /* AirPlayCast.mm in Sources */,
 
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +235,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AirplayCast;
+				PRODUCT_NAME = AirPlayCast;
 				SKIP_INSTALL = YES;
 
 			};
@@ -252,7 +252,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AirplayCast;
+				PRODUCT_NAME = AirPlayCast;
 				SKIP_INSTALL = YES;
 
 			};
@@ -261,7 +261,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirplayCast" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirPlayCast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -270,7 +270,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirplayCast" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirPlayCast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,

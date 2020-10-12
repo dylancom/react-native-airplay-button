@@ -1,5 +1,5 @@
 #import <React/RCTBridgeModule.h>
 
-@interface AirplayCast : NSObject <RCTBridgeModule>
+@interface AirPlayCast : NSObject <RCTBridgeModule>
 
 @end

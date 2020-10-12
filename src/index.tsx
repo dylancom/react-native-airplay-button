@@ -1,9 +1,10 @@
-import { NativeModules } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
-type AirplayCastType = {
-  multiply(a: number, b: number): Promise<number>;
-};
+// type AirPlayCastType = {
+// };
 
-const { AirplayCast } = NativeModules;
+// const { AirPlayCast } = NativeModules;
 
-export default AirplayCast as AirplayCastType;
+export const AirPlayButton = requireNativeComponent('RNAirPlayButton');
+
+// export default AirPlayCast as AirPlayCastType;

@@ -11,11 +11,11 @@ npm install react-native-airplay-cast
 ## Usage
 
 ```js
-import AirplayCast from "react-native-airplay-cast";
+import { AirPlayButton } from "react-native-airplay-cast";
 
 // ...
 
-const result = await AirplayCast.multiply(3, 7);
+<AirPlayButton />
 ```
 
 ## Contributing
