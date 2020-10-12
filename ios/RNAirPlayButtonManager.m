@@ -12,10 +12,17 @@ RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {
-  MPVolumeView *volumeView = [[MPVolumeView alloc] init];
-  volumeView.showsVolumeSlider = false;
-
-  return volumeView;
+  if (@available(iOS 11.0, *)) {
+    AVRoutePickerView *airplayButton = [[AVRoutePickerView alloc] init];
+    airplayButton.activeTintColor = [UIColor blueColor];
+    airplayButton.tintColor = [UIColor whiteColor];
+    return airplayButton;
+  } else {
+    // If you still support previous iOS versions, you can use MPVolumeView
+    MPVolumeView *airplayButton = [[MPVolumeView alloc] init];
+    airplayButton.showsVolumeSlider = NO;
+    return airplayButton;
+  }
 }
 
 @end
