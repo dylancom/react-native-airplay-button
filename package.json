@@ -1,7 +1,7 @@
 {
   "name": "react-native-airplay-cast",
-  "version": "0.1.0",
-  "description": "Stream audio or video to AirPlay-enabled devices",
+  "version": "1.0.0",
+  "description": "Stream audio or video to AirPlay-enabled devices with a customizable AirPlay button",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",

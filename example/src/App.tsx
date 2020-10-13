@@ -5,7 +5,11 @@ import { AirPlayButton } from 'react-native-airplay-cast';
 export default function App() {
   return (
     <View style={styles.container}>
-      <AirPlayButton />
+      <AirPlayButton
+        activeTintColor="blue"
+        tintColor="black"
+        style={styles.button}
+      />
     </View>
   );
 }
@@ -15,5 +19,9 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  button: {
+    width: 30,
+    height: 30,
   },
 });
