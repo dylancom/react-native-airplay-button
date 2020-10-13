@@ -5,8 +5,17 @@ Stream audio or video to AirPlay-enabled devices with a customizable AirPlay but
 ## Installation
 
 ```sh
-npm install react-native-airplay-cast
+npm install react-native-airplay-cast --save
+
 ```
+
+**React Native 0.60 and above**
+
+Run `npx pod-install`. Linking is not required in React Native 0.60 and above.
+
+**React Native 0.59 and below**
+
+Run `react-native link react-native-airplay-cast` to link the react-native-airplay-cast library.
 
 ## Usage
 
