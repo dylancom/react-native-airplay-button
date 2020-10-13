@@ -1,6 +1,6 @@
 # react-native-airplay-cast
 
-Stream content to AirPlay-enabled devices
+Stream audio or video to AirPlay-enabled devices.
 
 ## Installation
 
@@ -15,7 +15,7 @@ import { AirPlayButton } from "react-native-airplay-cast";
 
 // ...
 
-<AirPlayButton />
+<AirPlayButton style={{ width: 30, height: 30 }} />
 ```
 
 ## Contributing
