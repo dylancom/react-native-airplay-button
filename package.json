@@ -10,7 +10,6 @@
   "files": [
     "src",
     "lib",
-    "android",
     "ios",
     "cpp",
     "react-native-airplay-cast.podspec",
@@ -31,8 +30,7 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "ios"
   ],
   "repository": "https://github.com/dylancom/react-native-airplay-cast",
   "author": "Dylan Companjen <dylancompanjen@gmail.com> (https://github.com/dylancom)",
