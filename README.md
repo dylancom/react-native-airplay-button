@@ -2,7 +2,7 @@
 
 Stream audio or video to AirPlay-enabled devices with a customizable AirPlay button.
 
-![AirPlay Button](example-1.png) ![AirPlay Button Pressed](example-2.png)
+![AirPlay Button](example-1.png =200x) ![AirPlay Button Pressed](example-2.png =200x)
 
 ## Installation
 
@@ -26,7 +26,7 @@ import { AirPlayButton } from "react-native-airplay-cast";
 
 <AirPlayButton 
   activeTintColor="blue"
-  tintColor="black"
+  tintColor="red"
   style={{ width: 30, height: 30 }}
 />
 ```
