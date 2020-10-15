@@ -2,6 +2,8 @@
 
 Stream audio or video to AirPlay-enabled devices with a customizable AirPlay button.
 
+![AirPlay Button](example-1.png) ![AirPlay Button Pressed](example-2.png)
+
 ## Installation
 
 ```sh
