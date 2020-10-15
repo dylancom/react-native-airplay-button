@@ -2,7 +2,7 @@
 
 Stream audio or video to AirPlay-enabled devices with a customizable AirPlay button.
 
-![AirPlay Button](example-1.png =200x) ![AirPlay Button Pressed](example-2.png =200x)
+<img src="example-1.png" width=200 alt="AirPlay Button" /> <img src="example-2.png" width=200 alt="AirPlay Button Pressed" />
 
 ## Installation
 
