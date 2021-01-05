@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "react-native-airplay-cast": ["./src/index"]
+      "react-native-airplay-button": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

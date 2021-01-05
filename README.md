@@ -1,4 +1,4 @@
-# react-native-airplay-cast
+# react-native-airplay-button
 
 Stream audio or video to AirPlay-enabled devices with a customizable AirPlay button.
 
@@ -7,7 +7,7 @@ Stream audio or video to AirPlay-enabled devices with a customizable AirPlay but
 ## Installation
 
 ```sh
-npm install react-native-airplay-cast --save
+npm install react-native-airplay-button --save
 
 ```
 
@@ -17,12 +17,12 @@ Run `npx pod-install`. Linking is not required in React Native 0.60 and above.
 
 **React Native 0.59 and below**
 
-Run `react-native link react-native-airplay-cast` to link the react-native-airplay-cast library.
+Run `react-native link react-native-airplay-button` to link the react-native-airplay-button library.
 
 ## Usage
 
 ```js
-import { AirPlayButton } from "react-native-airplay-cast";
+import AirPlayButton from "react-native-airplay-button";
 
 <AirPlayButton 
   activeTintColor="blue"

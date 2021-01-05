@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { AirPlayButton } from 'react-native-airplay-cast';
+import AirPlayButton from 'react-native-airplay-button';
 
 const systemRed = 'rgb(255, 59, 48)';
 

@@ -1,6 +1,6 @@
 {
-  "name": "react-native-airplay-cast",
-  "version": "1.0.2",
+  "name": "react-native-airplay-button",
+  "version": "1.0.3",
   "description": "Stream audio or video to AirPlay-enabled devices with a customizable AirPlay button",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -12,7 +12,7 @@
     "lib",
     "ios",
     "cpp",
-    "react-native-airplay-cast.podspec",
+    "react-native-airplay-button.podspec",
     "!lib/typescript/example",
     "!**/__tests__",
     "!**/__fixtures__",
@@ -32,13 +32,13 @@
     "react-native",
     "ios"
   ],
-  "repository": "https://github.com/dylancom/react-native-airplay-cast",
+  "repository": "https://github.com/dylancom/react-native-airplay-button",
   "author": "Dylan Companjen <dylancompanjen@gmail.com> (https://github.com/dylancom)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dylancom/react-native-airplay-cast/issues"
+    "url": "https://github.com/dylancom/react-native-airplay-button/issues"
   },
-  "homepage": "https://github.com/dylancom/react-native-airplay-cast#readme",
+  "homepage": "https://github.com/dylancom/react-native-airplay-button#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
