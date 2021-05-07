@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  AirplayCastExample
+//  AirplayButtonExample
 //
 
 import Foundation
