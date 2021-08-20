@@ -10,6 +10,7 @@ export default function App() {
       <AirPlayButton
         activeTintColor="blue"
         tintColor={systemRed}
+        prioritizesVideoDevices={false}
         style={styles.button}
       />
     </View>

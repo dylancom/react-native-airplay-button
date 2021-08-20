@@ -27,6 +27,7 @@ import AirPlayButton from "react-native-airplay-button";
 <AirPlayButton 
   activeTintColor="blue"
   tintColor="red"
+  prioritizesVideoDevices={false}
   style={{ width: 30, height: 30 }}
 />
 ```
