@@ -17,5 +17,6 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_VIEW_PROPERTY(activeTintColor, UIColor);
 RCT_EXPORT_VIEW_PROPERTY(tintColor, UIColor);
+RCT_EXPORT_VIEW_PROPERTY(prioritizesVideoDevices, BOOL);
 
 @end
